@@ -1,0 +1,8 @@
+<strong>3. The truck is parked, and the car runs into it.</strong>
+<br>
+  <input type="radio" name="N3L_3" value="A">
+  The truck pushes on the car <strong>more than</strong> the car pushes on the truck.</input><br>
+  <input type="radio" name="N3L_3" value="B">
+  The truck pushes on the car <strong>exactly as much</strong> as the car pushes on the truck.</input><br>
+  <input type="radio" name="N3L_3" value="C">
+  The truck pushes on the car <strong>less than</strong> the car pushes on the truck.</input>

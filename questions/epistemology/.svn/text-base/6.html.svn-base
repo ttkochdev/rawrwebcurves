@@ -1,0 +1,7 @@
+<b>Scientists are having trouble predicting and explaining the behavior of thunder storms. This could be because thunder storms behave according to a very complicated or hard-to-apply set of rules. Or, that could be because some thunder storms don't behave consistently according to any set of rules, no matter how complicated and complete that set of rules is.<br>
+In general, why do scientists sometimes have trouble explaining things? Please read all options before choosing one.<br></b>
+<input type='radio' name='epist_6' value='complex'>Although things behave in accordance with rules, those rules are often complicated, hard to apply, or not fully known.</input><br>
+<input type='radio' name='epist_6' value='none'>Some things just don't behave according to a consistent set of rules.</input><br>
+<input type='radio' name='epist_6' value='sometimes_break'>Usually it's because the rules are complicated, hard to apply, or unknown; but sometimes it's because the thing doesn't follow rules.</input><br>
+<input type='radio' name='epist_6' value='half_break'>About half the time, it's because the rules are complicated, hard to apply, or unknown; and half the time, it's because the thing doesn't follow rules.</input><br>
+<input type='radio' name='epist_6' value='usually_break'>Usually it's because the thing doesn't follow rules; but sometimes it's because the rules are complicated, hard to apply, or unknown.</input>

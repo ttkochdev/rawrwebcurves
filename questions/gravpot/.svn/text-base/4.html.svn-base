@@ -1,0 +1,4 @@
+Which has greater <u>Potential Energy</u>?<br>
+<input type='radio' name='gravpot_4' value='a'>Mass A</input><br>
+<input type='radio' name='gravpot_4' value='b'>Mass B</input><br>
+<input type='radio' name='gravpot_4' value='c'>The potential energy of both masses is the same.</input>

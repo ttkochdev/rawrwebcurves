@@ -1,0 +1,7 @@
+The ball slows down as it moves through position <b>c</b>.<br>
+<input type='radio' name='n3l313_3' value='a'>The rod pushes on the ball a lot, but the ball doesn't push on the rod.</input><br>
+<input type='radio' name='n3l313_3' value='b'>The rod pushes on the ball more than the ball pushes back on the rod, but the
+ball still pushes on the rod.</input><br>
+<input type='radio' name='n3l313_3' value='c'>The rod pushes on the ball exactly as much as the ball pushes on the rod.</input><br>
+<input type='radio' name='n3l313_3' value='d'>The ball pushes on the rod more than the rod pushes on the ball, but the rod still pushes on the ball.</input><br>
+<input type='radio' name='n3l313_3' value='e'>The ball pushes on the rod a lot, but the rod doesn't push on the ball.</input>

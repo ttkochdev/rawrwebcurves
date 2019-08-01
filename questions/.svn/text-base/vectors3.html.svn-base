@@ -1,0 +1,4 @@
+3. Is the magnitude of the cross product <img src="images/vectors/wcrossq.png"/> equal to the magnitude of <img src="images/vectors/wdotq.png"/>?<br>
+<input type="radio" name="equivalence" value="yes">yes</input><br>
+<input type="radio" name="equivalence" value="no">no</input><br>
+<input type="radio" name="equivalence" value="dontknow">don't know</input>

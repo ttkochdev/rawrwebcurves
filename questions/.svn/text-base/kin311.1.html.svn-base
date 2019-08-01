@@ -1,0 +1,4 @@
+A new sports car starts from rest and accelerates at a constant rate, traveling 200 meters in 10 seconds. How long did it take for the car to travel the first 100 meters?<br>
+<input type="radio" name="kin311_1" value="<5">Less than 5 seconds</input><br>
+<input type="radio" name="kin311_1" value="5">5 seconds</input><br>
+<input type="radio" name="kin311_1" value=">5">More than 5 seconds</input>

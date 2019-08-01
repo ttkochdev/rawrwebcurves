@@ -1,0 +1,6 @@
+<table><tr>
+<td colspan=2>Compare the brightness of the bulb in circuit 1 with that in circuit 2. Which bulb is BRIGHTER?</td></tr><tr>
+<td><input type='radio' name='circuit_2' value='a'>The bulb in circuit 1 is brighter</input><br>
+<input type='radio' name='circuit_2' value='b'>The bulbs are the same brightness</input><br>
+<input type='radio' name='circuit_2' value='c'>The bulb in circuit 2 is brighter</input></td>
+<td align='right'><img src='images/circuits/circuit2.png'/></td></tr></table>

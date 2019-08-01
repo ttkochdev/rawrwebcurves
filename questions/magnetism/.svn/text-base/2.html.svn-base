@@ -1,0 +1,11 @@
+Wire 1 has a large current i flowing out of the page (i<sub>out</sub>), as shown in the diagram. Wire 2 has a large current i flowing into the page (i<sub>in</sub>). In what direction does the magnetic field point at position P?<br>
+<table><tr>
+<td><img style='width:400px' src='images/magnetism/magnet2.png'></td>
+<td>
+<table cellspacing=0>
+<tr><td><input type='radio' name='magnet_2' value='a' /></td><td><img src='images/magnetism/uarrow.png'></td></tr>
+<tr><td><input type='radio' name='magnet_2' value='b' /></td><td><img src='images/magnetism/larrow.png' style='margin:5 0px'></td></tr>
+<tr><td><input type='radio' name='magnet_2' value='c' /></td><td><img src='images/magnetism/rarrow.png' style='margin:5 0px'></td></tr>
+<tr><td><input type='radio' name='magnet_2' value='d' /></td><td><img src='images/magnetism/darrow.png'></td></tr>
+<tr><td colspan=2><input type='radio' name='magnet_2' value='e'>None of the above</input></td></tr></table></td>
+</tr></table>

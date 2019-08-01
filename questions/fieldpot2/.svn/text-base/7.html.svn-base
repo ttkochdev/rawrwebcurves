@@ -1,0 +1,6 @@
+Where is the <u>Electric Force</u> stronger?<br>
+<input type='radio' name='eforce_7' value='a'>A = B = C</input><br>
+<input type='radio' name='eforce_7' value='b'>A &gt; B &gt; C</input><br>
+<input type='radio' name='eforce_7' value='c'>C &gt; B &gt; A</input><br>
+<input type='radio' name='eforce_7' value='d'>A = C &gt; B</input><br>
+<input type='radio' name='eforce_7' value='e'>B &gt; A = C</input>

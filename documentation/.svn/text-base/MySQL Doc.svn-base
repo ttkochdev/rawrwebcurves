@@ -1,0 +1,179 @@
+RAWR!
+
+MySQL
+=====
+
+Conventions:
+SysID - Unique ID used for an entry which otherwise has no relation to the entry
+XXX_SysID - This is a pointer to a SysID in the Table 'XXX'
+
+
+Tables
+======
+
+Answer
+  - This stores answers from students
+Student_SysID - Reference to the student who made an answer
+Task_SysID - Reference to the task a student answered
+Question_SysID - Reference to the question being answered
+Answer - Student's Answer
+GroupTask_SysID - Reference to the group this student/task were in
+Demographics_SysID - Reference to the demographics at the time this was answered
+IRB_OK - Student allowed their responses to be used to statistical purposes
+
+Class
+  - This table stores instances of a course
+SysID - Unique ID for the class
+Course_SysID - Reference to the course this is an instance of
+Teacher_SysID - Reference to the teacher who teaches this class
+ClassNumber - Identifier school uses to distinguish this class (section number at RIT)
+Start_Date - Date at which Tasks will start being assigned for this class
+End_Date - Date past which Tasks will no longer be due for this class
+
+ClassTask
+  - Stores the tasks which will be assigned to a class
+Class_SysID - Reference to the class which a task is assigned to
+Task_SysID - Reference to the task which is being assigned
+
+Course
+  - List of courses supported by the system
+SysID - Unique ID for the course
+Name - Display name of a course
+Course_ID - College identifier for a course to assist in human search
+University_SysID - Reference to the university which this course is part of
+
+CourseTask
+  - Used to define which tasks are recommended for a course
+Course_SysID - Reference to the course which a task is being recommended for
+Task_SysID - Reference to the task which is being recommended
+
+Demographics
+  - Stores demographic information
+SysID - Unique ID for a set of demographic information
+Gender - 0 = Female, 1 = Male
+Major - Reference to the responder's Major
+PriorPhys - Reference to the highest level physics course taken
+Priormath - Reference to the highest level math course taken
+CurPhys - Reference to the current physics course being taken
+Curmath - Reference to the current math course being taken
+Year - Student year level, 4 means 4 or higher
+
+Feedback
+  - Stores feedback information
+ID - Unique ID for a piece of feedback
+Feed - Feedback provided
+
+Group
+  - Designates groups, which are assigned tasks
+SysID - Unique ID for a group
+Class_SysID - Class this group is part of (Depricated - group's aren't specific to any class or course)
+
+GroupMap
+  - Assigns students to a group
+Group_SysID - Reference to the group a student is assigned to
+Student_SysID - Reference to the student being assigned to a group
+Class_SysID - Reference to the class in which a student is being assigned to this course
+
+GroupTask
+  - Defines the tasks assigned to a group
+SysID - Unique ID for an assigned task
+Group_SysID - Reference to the group being assigned a task
+Task_SysID - Reference to the task being assigned
+Start_Date - Earliest date at which this may be completed
+End_Date - Latest date at which this may be completed
+
+Login
+  - Login table for RAWR
+id - Unique ID for a Login entry
+username - Name entered into the login box
+password - md5 hash of the user's password
+email - Email for the user
+timestamp - Timestamp for user's latest activity
+userlevel - Defines the type of user. 1 = Student, 5 = Teacher, 8 = Debug Student, 9 = Admin
+userid - Random unique id for a session
+Student_SysID - Reference to the student OR professor's SysID (can go to either table despite it's poorly choses name)
+
+Major
+  - Stores known majors
+SysID - Unique ID for the major
+Name - Name of the major
+
+MajorMap
+  - Links Majors to a student (deprecated, majors are part of demographics)
+Student_SysID - Reference to the student
+Major_SysID - Reference to a major of the student
+
+Minor
+  - Stores known minors
+SysID - Unique ID for the minor
+Name - Name of the minor
+
+MinorMap
+  - Links Minors to a student (deprecated, not used but should be part of demographics
+SysID - Reference to the student
+Minor_SysID - Reference to a minor of the student
+
+Question
+  - Defines questions which are displayed as part of a task
+SysID - Unique ID for this question
+Name - Name of the question
+Description - Description of the question
+File - Filename of question
+Answer - Answer of the question in the form POSTName=POSTValue
+Setup - 1 if this is a setup header, not a question. 0 if a question.
+
+Schedule
+  - Maps students into a class
+Student_SysID - Reference to the student
+Class_SysID - Reference to the class the student is a part of
+
+Student
+  - Defines the students in the system
+SysID - Unique ID for the student
+FirstName - First name of the student
+LastName - Last name of the student
+University_SysID - Reference to the university this student is part of
+Email - email of the student
+Gender - Gender of the student (depricated, part of demographics now)
+StudentID - College ID for the student (depricated, not used as of right now)
+UpdateInfo - Boolean to indicate that a student needs to take the demographics survey
+UpdateConest - Boolean to indicate that a student needs to take the consention form
+ShowInstructions - Boolean to indicate that a student needs to read the RAWR intro page
+Consented - Boolean indicating that the student consented in the consent page
+Demographics_SysID - Reference to the student's current demographics information
+CurPhys - Reference to the students current physics course
+
+TakeTask
+  - Used to record when students start and finish tasks
+Student_SysID - Reference to the student
+GroupTask_SysID - Reference to the Task instance being answered
+Start - Start Time of the task
+Finish - Initialized to NULL, set to the students completion time when they submit
+
+Task
+  - Defines a task
+SysID - Unique ID for a task
+Name - Name of the task
+Description - Description of the task
+
+TaskMap
+  - Maps questions onto tasks
+Task_SysID - Task having a question added to it
+Question_SysID - Question being added to the task
+Order - Numeric value which is used to order questions when displayed. Lower numbers show before higher
+
+Teacher
+  - Defines the teachers in the system
+SysID - Unique ID for the teacher
+FirstName - First name of the teacher
+LastName - Last name of the teacher
+University_SysID - Reference to the university the teacher is a part of
+Email - Email of the teacher
+Office - Office of the teacher (unused currently)
+TeacherID - University's ID for the teacher (unused currently)
+
+University
+  - Defines the universities in the system
+SysID - Unique ID for the university
+Name - Name of the university
+Address - Address of the university (unused)

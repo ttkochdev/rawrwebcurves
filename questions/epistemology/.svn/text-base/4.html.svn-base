@@ -1,0 +1,6 @@
+<b>Someone who doesn't have high natural ability can still learn the material well even in a hard chemistry or physics class.<br></b>
+<input type='radio' name='epist_4' value='stronglyno'>Strongly Disagree</input>
+<input type='radio' name='epist_4' value='no'>Somewhat Disagree</input>
+<input type='radio' name='epist_4' value='dunno'>Neutral</input>
+<input type='radio' name='epist_4' value='yes'>Somewhat Agree</input>
+<input type='radio' name='epist_4' value='stronglyyes'>Strongly Agree</input>

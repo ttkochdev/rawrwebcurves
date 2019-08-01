@@ -1,0 +1,4 @@
+A student on a bike is traveling at a constant speed and passes a parked car. Then the car starts, accelerates, catches up to the bike and passes the bike. At what point did they have the same speed?<br>
+<input type="radio" name="kin311_3" value="after">after the car passed the bike</input><br>
+<input type="radio" name="kin311_3" value="at">at the moment when the car passed the bike</input><br>
+<input type="radio" name="kin311_3" value="before">before the car passed the bike</input>

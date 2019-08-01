@@ -1,0 +1,4 @@
+4. Does the sign of <img src="images/vectors/wcrossq.png"/> depend on the coordinate system?<br>
+<input type="radio" name="crosssign" value="yes">yes</input><br>
+<input type="radio" name="crosssign" value="no">no</input><br>
+<input type="radio" name="crosssign" value="dontknow">don't know</input>

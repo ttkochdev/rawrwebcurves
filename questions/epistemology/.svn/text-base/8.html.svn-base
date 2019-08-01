@@ -1,0 +1,6 @@
+<b>To be successful at science...<br></b>
+<input type='radio' name='epist_8' value='hardwork'>Hard work is much more important than inborn natural ability.</input><br>
+<input type='radio' name='epist_8' value='hardwork>natural'>Hard work is a little more important than natural ability.</input><br>
+<input type='radio' name='epist_8' value='same'>Natural ability and hard work are equally important.</input><br>
+<input type='radio' name='epist_8' value='natural>hardwork'>Natural ability is a little more important than hard work.</input><br>
+<input type='radio' name='epist_8' value='natural'>Natural ability is much more important than hard work.</input>

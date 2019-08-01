@@ -1,0 +1,8 @@
+<b>Anna: I just read about Kay Kinoshita, the physicist. She sounds naturally brilliant.<br>
+Emily: Maybe she is. But when it comes to being good at science, hard work is more important than "natural ability." I bet Dr. Kinoshita does well because she has worked really hard.<br>
+Anna: Well, maybe she did. But let's face it, some people are just smarter at science than other people. Without natural ability, hard work won't get you anywhere in science!<br></b>
+<input type='radio' name='epist_9' value='anna'>I agree almost entirely with Anna.</input><br>
+<input type='radio' name='epist_9' value='anna_someemily'>Although I agree more with Anna, I think Emily makes some good points.</input><br>
+<input type='radio' name='epist_9' value='same'>I agree (or disagree) equally with Anna and Emily.</input><br>
+<input type='radio' name='epist_9' value='emily_someanna'>Although I agree more with Emily, I think Anna makes some good points.</input><br>
+<input type='radio' name='epist_9' value='emily'>I agree almost entirely with Emily.</input>

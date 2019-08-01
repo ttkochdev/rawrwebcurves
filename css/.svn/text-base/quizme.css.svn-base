@@ -1,0 +1,36 @@
+div.taskheader{
+   font-size: large;
+   margin-bottom: 10px;
+   text-decoration: underline;
+/*   float: left; */
+}
+div.task{
+   margin-left: 30px;
+   padding: 10px;
+   border: solid black 1px;
+   width: 700px;
+}
+div.question{
+   margin-bottom: 20px;
+}
+div.header{
+   font-weight: bold;
+   font-size: large;
+   margin-bottom: 30px;
+}
+div.questions{
+   margin-left: 30px;
+   padding-bottom: 20px;
+}
+div.timeremaining{
+   margin-bottom: 10px;
+/*   float: left; */
+}
+div.quizheader{
+
+}
+div.wrapper{
+   height: 0px;
+   width: 0px;
+   clear: both;
+}

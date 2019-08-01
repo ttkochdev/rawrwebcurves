@@ -1,0 +1,4 @@
+Compare the <strong>momentum</strong> of block A as it crosses the second line to the <strong>momentum</strong> of block B as it crosses the second line.<br>
+<input type="radio" name="worke_4" value="a">A is larger than B</input><br>
+<input type="radio" name="worke_4" value="a">A is smaller than B</input><br>
+<input type="radio" name="worke_4" value="a">A is the same B</input>

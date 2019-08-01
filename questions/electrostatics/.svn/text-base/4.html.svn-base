@@ -1,0 +1,6 @@
+A hollow sphere made out of electrically insulating material is electrically neutral (no excess charge). A small amount of negative charge is suddenly placed at one point P on the outside of this sphere. If we check on this excess negative charge a few seconds later we will find one of the following possibilities:<br>
+<input type='radio' name='electr_4' value='a'>All of the excess charge remains right around P.</input><br>
+<input type='radio' name='electr_4' value='b'>The excess charge has distributed itself evenly over the outside surface of the sphere.</input><br>
+<input type='radio' name='electr_4' value='c'>The excess charge is evenly distributed over the inside and the outside surface.</input><br>
+<input type='radio' name='electr_4' value='d'>Most of the charge is still at point P, but some will have spread over the sphere.</input><br>
+<input type='radio' name='electr_4' value='e'>There will be no excess charge left.</input>

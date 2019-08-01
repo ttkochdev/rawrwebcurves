@@ -1,0 +1,7 @@
+Which of these is equal to the change in velocity, dV?<br>
+<input type="radio" name="dv" value="i-f"><img src="images/vectors/ca.png"/>&nbsp;</input><br>
+<input type="radio" name="dv" value="f-i"><img src="images/vectors/cb.png"/>&nbsp;</input><br>
+<input type="radio" name="dv" value="i+f"><img src="images/vectors/cc.png"/>&nbsp;</input><br>
+<input type="radio" name="dv" value="ab">both a and b.</input><br>
+<input type="radio" name="dv" value="abc">a, b, and c.</input>
+

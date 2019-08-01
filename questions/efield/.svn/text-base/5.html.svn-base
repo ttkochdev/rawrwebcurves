@@ -1,0 +1,4 @@
+At which point is the <u>Electric Field</u> greater?<br>
+<input type='radio' name='efield_5' value='a'>at point A.</input><br>
+<input type='radio' name='efield_5' value='b'>at point B.</input><br>
+<input type='radio' name='efield_5' value='c'>The field is the same at both points.</input>

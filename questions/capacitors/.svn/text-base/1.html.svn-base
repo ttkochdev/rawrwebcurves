@@ -1,0 +1,5 @@
+Below are two circuits with different capacitors (capacitance C and 2C) and identical batteries (voltage V). After the circuits have been hooked up for a while, which capacitor has a larger charge?<br>
+<img style='width:50%' src='images/capacitors/circuit.png'/><br>
+<input type='radio' name='capacitors_2' value='c'>C</input>
+<input type='radio' name='capacitors_2' value='2c'>2C</input>
+<input type='radio' name='capacitors_2' value='equal'>Equal</input>

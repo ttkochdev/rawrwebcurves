@@ -1,0 +1,174 @@
+Folder Setup
+============
+Base Directory
+- Contains the normal pages viewed by users
+admin
+- Contains files specific for admin users
+answers
+- Contains answer files for tests, not used anymore
+css
+- Contains CSS files
+documentation
+- Contains documentation for the project
+images
+- Contains the images for the system and questions
+include
+- Contains helper files, but no files which would be directly viewed
+questions
+- Contains the question html files
+resources
+- Old include folder
+
+
+
+Base Directory
+==============
+index.php
+- Where it all starts!
+- This page servers as the login page and home page
+
+answers.php
+- Displays graphs made in R
+- Graphs have total number of responses for each answer to each question for a given task
+
+barplot.php
+- Random file which probably should be deleted
+
+bounce.php
+- Redirects any incoming page back to where it came from
+- Useful for preventing undo history from being created on pages where the user clicks on buttons
+
+clear.php
+- For Debug Users only, removes all response data for the user.
+
+consent.php
+- This is the consent form / page, displayed the first time a user accesses the system.
+
+demogrpahics.php
+- This is the demographics form / page. It is specific to RIT and has all the majors and colleges hard coded currently.
+
+edit.php
+- This page is for teacher's to set the tasks that will be assigned to a class
+
+export.php
+- This page will export a classes task completion list to a csv file
+
+feedback.php
+- This page is for users providing feedback on the RAWR system
+
+forgotpass.php
+- For users to recover a forgotten password
+
+graph.php
+- Creates line graphs showing responses to a question over weeks, currently unused and not finished
+
+httpsonly.php
+- Copy of the version in include, shouldn't be here
+
+instructions.php
+- Intro page displayed the first time a user accesses RAWR
+
+mailto.php
+- Sends a mass spam email to every user in RAWR. Disabled for obvious reasons
+- Would be used to send period reminders if ever reactivated
+
+participation.php
+- Displays a list of who has completed each task each week for a class
+
+process.php
+- Deals with Login / Logout / ForgotPassword
+
+quizme.php
+- This file handle's giving students tests
+
+registered.php
+- Equivalent of a Hello World file. Why is this still here?
+
+reset.php
+- For Debug Users only. sets flags so user needs to retake the intro pages.
+
+responses.php
+- Displays list of tasks for a course with a link answers.php to show the graphs
+
+roster.php
+- Allows a teacher to set up a new class, including uploading the class roster
+
+submit.php
+- Handles task submission from students
+
+useredit.php
+- Handles letting users edit their account (email, password)
+
+userinfo.php
+- Displays account settings (email, name)
+
+viewquiz.php
+- Will display a tast to anyone, has no submission options and such
+
+
+
+Admin Directory
+===============
+admin.php
+- Main admin page, has options for removing and banning users as well as links to the other pages
+
+adminprocess.php
+- Processes requests from admin.php
+
+group.php
+- Can be used to put students into groups easily
+
+CSS Directory
+=============
+edit.css
+- CSS Styling for edit.php
+
+quizme.css
+- CSS Styling for quizme.php
+
+
+
+Include Directory
+=================
+answer.php
+- Will propely convert answers into and out of DB safe format
+
+barplot.php
+- Creates a bar graph using R
+
+constants.php
+- Contains constants for the system
+
+database.php
+- Contains many functions for doing database work, as well as connects to database
+
+dbconnect.php
+- Simple file for just connecting to the database
+
+form.php
+- Simplifies error tracking between pages, only used by original login system files
+
+httpsonly.php
+- Will check if HTTPS is being used and auto forward to HTTPS if its not
+
+lineplot.php
+- Creates a line graph using R
+
+mailer.php
+- Sends email to users who forget their passwords
+
+rit.php
+- Contains authenticate method to authenticate a username / password with RIT's LDAP
+
+service.php
+- Contains functions which may be used in multiple places, like reading student name from DB
+
+session.php
+- File for all session related information tracking
+
+timepicker.js
+- Javascript file for showing popup date selectors
+
+view_active.php
+- Shows active users in system, unused
+

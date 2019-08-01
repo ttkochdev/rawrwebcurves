@@ -1,0 +1,7 @@
+5. Compare <img src="images/vectors/wcrossq.png"/> to <img src="images/vectors/qcrossw.png"/>.<br>
+<div style="padding-left:15px">
+a. Are they the same magnitude as each other?<br>
+<input type="radio" name="magnitude" value="yes">yes</input><br>
+<input type="radio" name="magnitude" value="no">no</input><br>
+<input type="radio" name="magnitude" value="dontknow">don't know</input>
+</div>

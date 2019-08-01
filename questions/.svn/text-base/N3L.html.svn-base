@@ -1,0 +1,95 @@
+
+<p>I.  The picture shows a car and a truck.  The truck weighs much more than the car.</p>
+<p><img src="../images/N3L/Car_Truck.png" width="474" height="150" alt="Car-Truck" /></p>
+<p>For each of the following scenarios, choose the letter which best describes the situation. Some letters may be used more than once, and some letters may not be used at all. </p>
+<p><br>
+  A. The truck pushes on the car a lot, but the car doesn’t push back on the truck.  The 
+  car just gets in the way.  </p>
+<p>B. The truck pushes on the car more than the car pushes back on the truck, but the 
+  car still pushes back on the truck.  </p>
+<p>C. The truck pushes on the car exactly as much as the car pushes on the truck.</p>
+<p> D. The car pushes on the truck more than the truck pushes back on the car, but the 
+  truck still pushes back on the car.</p>
+<p> E. The car pushes on the truck a lot, but the truck doesn’t push back on the truck.  
+  The truck just gets in the way. </p>
+<p><br />
+  1. The truck and the car are moving at equal speeds towards each other, and then they 
+  hit.  </p>
+<p>
+  <input type="radio" name="N3L_1" value="<5">A</input><br>
+  <input type="radio" name="N3L_1" value="5">B</input><br>
+  <input type="radio" name="N3L_1" value="<5">C</input><br>
+  <input type="radio" name="N3L_1" value="5">D</input><br>
+  <input type="radio" name="N3L_1" value=">5">E</input>
+</p>
+<p>2. The truck is moving slowly and the car is moving quickly towards each other, and 
+  then they hit.</p>
+<p>
+  <input type="radio" name="N3L_2" value="<5">A</input><br>
+  <input type="radio" name="N3L_2" value="5">B</input><br>
+  <input type="radio" name="N3L_2" value="<5">C</input><br>
+  <input type="radio" name="N3L_2" value="5">D</input><br>
+  <input type="radio" name="N3L_2" value=">5">E</input>
+</p>
+<p>3. The truck is parked, and the car runs into it.</p>
+<p>
+  <input type="radio" name="N3L_3" value="<5">A</input><br>
+  <input type="radio" name="N3L_3" value="5">B</input><br>
+  <input type="radio" name="N3L_3" value="<5">C</input><br>
+  <input type="radio" name="N3L_3" value="5">D</input><br>
+  <input type="radio" name="N3L_3" value=">5">E</input>
+</p>
+<p>4. The car is parked, and the truck runs into it.</p>
+<p>
+  <input type="radio" name="N3L_4" value="<5">A</input><br>
+  <input type="radio" name="N3L_4" value="5">B</input><br>
+  <input type="radio" name="N3L_4" value="<5">C</input><br>
+  <input type="radio" name="N3L_4" value="5">D</input><br>
+  <input type="radio" name="N3L_4" value=">5">E</input>
+<p>II.  This picture shows a car pulling a trailer.  The trailer weighs more than the car.
+<p><img src="../images/N3L/Car_Trailer.png" width="458" height="121" alt="Car_Trailer" /> 
+<p>For each of the following scenarios, choose the letter which best describes the situation.  
+  Some letters may be used more than once, and some letters may not be used at all. 
+  
+<p>F. The trailer pulls on the car a lot, but the car doesn’t pull on the trailer.  The car 
+just gets in the way.
+<p> G. The trailer pulls on the car more than the car pulls back on the trailer, but the car 
+still pulls on the trailer.
+<p> H. The trailer pulls on the car exactly as much as the car pulls on the trailer.
+<p> I. The car pulls on the trailer more than the trailer pulls on the car, but the trailer still 
+  pulls on the car. 
+<p>J. The car pulls on the trailer a lot, but the trailer doesn’t pull on the trailer.  The 
+    trailer just gets in the way. 
+<p>
+<p>1. The car was stopped, and starts to move. 
+<p>
+  <input type="radio" name="N3L_5" value="<5">A</input><br>
+  <input type="radio" name="N3L_5" value="5">B</input><br>
+  <input type="radio" name="N3L_5" value="<5">C</input><br>
+  <input type="radio" name="N3L_5" value="5">D</input><br>
+  <input type="radio" name="N3L_5" value=">5">E</input>
+</p>
+  <p>2. The car drives at constant speed up a hill. 
+  <p>
+  <input type="radio" name="N3L_6" value="<5">A</input><br>
+  <input type="radio" name="N3L_6" value="5">B</input><br>
+  <input type="radio" name="N3L_6" value="<5">C</input><br>
+  <input type="radio" name="N3L_6" value="5">D</input><br>
+  <input type="radio" name="N3L_6" value=">5">E</input>
+</p>
+    <p>3. The car drives at constant speed on a flat road.   
+    <p>
+  <input type="radio" name="N3L_7" value="<5">A</input><br>
+  <input type="radio" name="N3L_7" value="5">B</input><br>
+  <input type="radio" name="N3L_7" value="<5">C</input><br>
+  <input type="radio" name="N3L_7" value="5">D</input><br>
+  <input type="radio" name="N3L_7" value=">5">E</input>
+</p> 
+    <p> 4. The car slows down.           
+    <p>
+  <input type="radio" name="N3L_8" value="<5">A</input><br>
+  <input type="radio" name="N3L_8" value="5">B</input><br>
+  <input type="radio" name="N3L_8" value="<5">C</input><br>
+  <input type="radio" name="N3L_8" value="5">D</input><br>
+  <input type="radio" name="N3L_8" value=">5">E</input>
+</p>

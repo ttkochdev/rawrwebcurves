@@ -1,0 +1,29 @@
+***Software Documentation***
+
+
+List of Software Installed on Janice
+===============
+  Apache/2.2.12 Ubuntu
+
+  MySQL version 5.1.37-1ubuntu5.4
+
+  PHP version 5.3.2
+
+  PHPMYADMIN version 3.2.2.1deb1
+
+  R version 2.11.1 (2010-05-31) 
+
+  R Packages:
+   - Packages found in library '/usr/local/lib/R/site-library':
+   - binom                   Binomial Confidence Intervals For Several
+                             Parameterizations
+   - bitops                  Functions for Bitwise operations
+   - caTools                 Tools: moving window statistics, GIF, Base64,
+                             ROC AUC, etc.
+   - DBI                     R Database Interface
+   - gdata                   Various R programming tools for data manipulation
+   - gplots                  Various R programming tools for plotting data
+   - gtools                  Various R programming tools
+   - RMySQL                  R interface to the MySQL database
+      
+===============

@@ -1,0 +1,3 @@
+2. Does the sign of <img src="images/vectors/wdotq.png"/> depend on the coordinate system?<br>
+<input type="radio" name="sign" value="yes">yes</input><br>
+<input type="radio" name="sign" value="no">no</input>

@@ -1,0 +1,89 @@
+K 25
+svn:wc:ra_dav:version-url
+V 35
+/svn/webcurves/!svn/ver/188/include
+END
+mailer.php
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/webcurves/!svn/ver/81/include/mailer.php
+END
+constants.php
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/webcurves/!svn/ver/188/include/constants.php
+END
+rit.php
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/webcurves/!svn/ver/171/include/rit.php
+END
+dbconnect.php
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/webcurves/!svn/ver/23/include/dbconnect.php
+END
+answer.php
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/webcurves/!svn/ver/111/include/answer.php
+END
+service.php
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/webcurves/!svn/ver/186/include/service.php
+END
+timepicker.js
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/webcurves/!svn/ver/131/include/timepicker.js
+END
+form.php
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/webcurves/!svn/ver/11/include/form.php
+END
+session.php
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/webcurves/!svn/ver/187/include/session.php
+END
+barplot.php
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/webcurves/!svn/ver/168/include/barplot.php
+END
+database.php
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/webcurves/!svn/ver/11/include/database.php
+END
+httpsonly.php
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/webcurves/!svn/ver/11/include/httpsonly.php
+END
+view_active.php
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/webcurves/!svn/ver/12/include/view_active.php
+END
+lineplot.php
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/webcurves/!svn/ver/116/include/lineplot.php
+END

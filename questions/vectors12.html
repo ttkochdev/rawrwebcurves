@@ -1,0 +1,53 @@
+Click once to set the start point of your vector, click a second time to set the end point:<br>
+<div style="text-align:center;width:230px;">
+<table border=1 cellspacing=0 cellpadding=0><tr>
+<input id="vector_length" type="hidden" name="vector_length"></input>
+<td id="vectors_index_0" style="height:20px;width:20px;" onclick="cell(0)">&nbsp;</td>
+<td id="vectors_index_1" style="height:20px;width:20px;" onclick="cell(1)">&nbsp;</td>
+<td id="vectors_index_2" style="height:20px;width:20px;" onclick="cell(2)">&nbsp;</td>
+<td id="vectors_index_3" style="height:20px;width:20px;" onclick="cell(3)">&nbsp;</td>
+<td id="vectors_index_4" style="height:20px;width:20px;" onclick="cell(4)">&nbsp;</td>
+<td id="vectors_index_5" style="height:20px;width:20px;" onclick="cell(5)">&nbsp;</td>
+<td id="vectors_index_6" style="height:20px;width:20px;" onclick="cell(6)">&nbsp;</td>
+<td id="vectors_index_7" style="height:20px;width:20px;" onclick="cell(7)">&nbsp;</td>
+<td id="vectors_index_8" style="height:20px;width:20px;" onclick="cell(8)">&nbsp;</td>
+<td id="vectors_index_9" style="height:20px;width:20px;" onclick="cell(9)">&nbsp;</td>
+</tr></table><img src="images/vectors/dv_vec.png"/>
+<div style="display:none">
+<img src="images/vectors/line.png"/><img src="images/vectors/larrow.png"/><img src="images/vectors/rarrow.png"/><img src="images/vectors/dot.png"/>
+</div></div>
+
+<script language="JavaScript" type="text/javascript"><!--
+var start = -1;
+var end = -1;
+function cell( number ){
+   if( start > -1 && end > -1 ){
+      start = -1;
+      end = -1;
+      document.getElementById( "vector_length" ).value = "";
+      for( i = 0; i < 10; ++i ){
+         document.getElementById( "vectors_index_" + i ).innerHTML = "&nbsp;";
+      }
+   }
+   if( start == -1 ){
+      start = number;
+      document.getElementById( "vector_length" ).value = 0;
+      document.getElementById( "vectors_index_" + start ).innerHTML = "<img src=\"images/vectors/dot.png\"/>";
+   }else
+   if( start > -1 && end == -1 && number != start ){
+      end = number;
+      document.getElementById( "vector_length" ).value = (end - start) + "";
+      if( start < end ){
+         for( i = start; i < end; ++i ){
+            document.getElementById( "vectors_index_" + i ).innerHTML = "<img src=\"images/vectors/line.png\"/>";
+         }
+         document.getElementById( "vectors_index_" + end ).innerHTML = "<img src=\"images/vectors/rarrow.png\"/>";
+      }else{
+         for( i = start; i > end; --i ){
+            document.getElementById( "vectors_index_" + i ).innerHTML = "<img src=\"images/vectors/line.png\"/>";
+         }
+         document.getElementById( "vectors_index_" + end ).innerHTML = "<img src=\"images/vectors/larrow.png\"/>";
+      }
+   }
+}
+--></script>

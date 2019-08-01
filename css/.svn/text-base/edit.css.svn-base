@@ -1,0 +1,4 @@
+td.displaytd{
+   padding-left:10px;
+   white-space:pre
+}

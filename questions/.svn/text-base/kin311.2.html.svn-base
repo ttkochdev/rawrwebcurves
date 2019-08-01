@@ -1,0 +1,4 @@
+A ball is dropped from rest, and has fallen a distance d in three seconds. After falling for three more seconds (6 seconds total), how far is the ball from where it was dropped?<br>
+<input type="radio" name="kin311_2" value=">2d">more than 2 <i>d</i></input><br>
+<input type="radio" name="kin311_2" value="2d">2 <i>d</i></input><br>
+<input type="radio" name="kin311_2" value="<2d">less than 2 <i>d</i></input>

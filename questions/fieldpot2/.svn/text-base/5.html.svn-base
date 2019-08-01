@@ -1,0 +1,4 @@
+At which point is the <u>Electric Force</u> greater?<br>
+<input type='radio' name='eforce_5' value='a'>at point A.</input><br>
+<input type='radio' name='eforce_5' value='b'>at point B.</input><br>
+<input type='radio' name='eforce_5' value='c'>The force is the same at both points.</input>

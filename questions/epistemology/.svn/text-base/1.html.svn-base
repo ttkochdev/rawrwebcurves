@@ -1,0 +1,6 @@
+<b>Obviously, computer simulations can predict the behavior of physical objects like comets. But simulations can also help scientists estimate things involving the behavior of people, such as how many people will buy new television sets next year.<br></b>
+<input type='radio' name='epist_1' value='stronglyno'>Strongly Disagree</input>
+<input type='radio' name='epist_1' value='no'>Somewhat Disagree</input>
+<input type='radio' name='epist_1' value='dunno'>Neutral</input>
+<input type='radio' name='epist_1' value='yes'>Somewhat Agree</input>
+<input type='radio' name='epist_1' value='stronglyyes'>Strongly Agree</input>

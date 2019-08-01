@@ -1,0 +1,4 @@
+At which point is the <u>Electric Potential</u> greater?<br>
+<input type='radio' name='efield_6' value='a'>at point A.</input><br>
+<input type='radio' name='efield_6' value='b'>at point B.</input><br>
+<input type='radio' name='efield_6' value='c'>The potential is the same at both points.</input>

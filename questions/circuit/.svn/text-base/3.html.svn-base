@@ -1,0 +1,5 @@
+<table><tr><td colspan=2>How does the resistance between the endpoints change when the switch is closed?</td></tr><tr>
+<td><input type='radio' name='circuits_3' value='a'>Increases</input><br>
+<input type='radio' name='circuits_3' value='b'>Stays the same</input><br>
+<input type='radio' name='circuits_3' value='c'>Decreases</input></td>
+<td align='right'><img src='images/circuits/circuit3.png'/></td></tr></table>
